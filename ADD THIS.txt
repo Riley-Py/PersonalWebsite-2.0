@@ -1,0 +1,291 @@
+<script setup>
+</script>
+
+<template>
+  <!--Naviagation bar for website-->
+  <div class="titlecover">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary font-inconsolata">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="image" src="/pi.svg" alt="Logo" width="30" height="24">
+          RC
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--Main title-->
+  <div class="container-fluid">
+    <div class="banner"> </div>
+    <h1 class="beginningtext"> riley cant</h1>
+    <h2 class="subtext"> creator, tinkerer, innovator</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="bannerquote"> </div>
+    <figure class="quote">
+      <blockquote class="blockquote mainquote">
+        <p>"The function of good software is to make the complex seem simple"</p>
+      </blockquote>
+      <figcaption class="blockquote-footer authorquote">
+        <cite> Grady Booch</cite>
+      </figcaption>
+    </figure>
+
+  </div>
+  <!--About section (note: move cards with margins and make row m-0 and change out the cards/color (use rows and columns!!))-->
+  <div class="container-fluid ">
+    <div class="aboutbackground"> </div>
+    <div class="row row-cols-1 row-cols-md-2 align-items-center">
+      <!--As well, use "col-12 col-md-6" to format the cards correctly-->
+      <div class="col">
+        <div class="card mx-auto h-100" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
+          <img src="./assets/Programming.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text fonts"> Programming projects will be a <u>LARGE</u> focus</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto p-4 h-100"
+          style="width: 30rem; margin-top: 95px; margin-right: 10px; margin-bottom: 30px;">
+          <div class="card-body">
+            <h5 class="card-title titlefont" id="about"> <strong> <u>About Me </u></strong></h5>
+            <p class="card-text fonts"> Hello, my name is Riley and here is my personal website to display some of my
+              <u>projects</u> and <u>accomplishments</u>. Here are some things that you should know about me
+            </p>
+            <ul class="fonts">
+              <li> Passionate</li>
+              <li> Can work under tight deadlines</li>
+              <li> Love technology</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Projects that I've done-->
+  <div class="container-fluid">
+    <div class="projectsbackground">
+      <h1 class="text-center projectfont" id="projects" style="margin-top: 25px"> <strong> <u>My Projects </u> </strong> </h1>
+      <div class="row row-cols-auto row-cols-md-3 align-items-center m-0">
+        <div class="col">
+          <div class="card h-100" style=" margin-bottom: 30px">
+            <video width="595" height="240" controls loop autoplay muted>
+              <source src="./assets/Video.mp4" type="video/mp4">
+              Not supported
+            </video>
+            <div class="card-body">
+              <h5 class="card-title">Security Alarm System</h5>
+              <p class="card-text fonts">This is a project made with an Arduino microcontroller, along with:</p>
+              <ul class="card-text fonts">
+                <li> LEDs</li>
+                <li> LCD screen</li>
+                <li> IR remote</li>
+                <li> Ultrasonic sensor</li>
+              </ul>
+            </div>
+            <p class="card-text fonts"> There is also a PIN system to enter to disarm the alarm and when the alarm is
+              triggered, a sound is played.</p>
+            <div class="card-footer fonts">
+              <small class="text-muted">Tech used: Arduino, C++, sensors</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="margin-top: 40px; margin-bottom: 20px">
+            <img src="./assets/GC.png" class="card-img-top" alt="Not supported"
+              style="width: 280px; height:auto; margin-left: auto; margin-right: auto; object-fit:inherit">
+            <div class="card-body">
+              <h5 class="card-title">Apple Co-Op </h5>
+              <p class="card-text fonts"> In the summer of 2022, I did a co-op that was a collaboration between Apple Canada
+                and Our Wave Hub. Some of the opportunties presented were: </p>
+              <ul class="card-text fonts">
+                <li>Learning basic layout design</li>
+                <li> Business concepts (how to make a professional keynote)</li>
+                <li> Using some tools that big tech companies use (Notion, Miro)</li>
+                <li> Learning from industry professionals on pitching</li>
+              </ul>
+            </div>
+            <div class="card-footer fonts">
+              <small class="text-muted">Tech used: Swift, Xcode, Miro, Notion</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="margin-top: 40px; margin-bottom: 20px">
+            <!--Include a video of website-->
+            <div class="card-body">
+              <h5 class="card-title">Personal Website</h5>
+              <p class="card-text fonts"> This website was created as a challenge to myself to see what I can learn given a timeframe (about 3 weeks). Some of the skills aquired were</p>
+              <ul class="card-text fonts">
+                <li> Learning a front-end UI framework</li>
+                <li> Learning HTML</li>
+                <li> Learning CSS</li>
+                <li> Learning how to make a website accessible (i.e mobile device)</li>
+              </ul>
+            </div>
+            <div class="card-footer fonts">
+              <small class="text-muted"> Tech used: HTML, CSS, VueJS, Firebase, Bootstrap</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--DO NOT REMOVE: stuff neeeded before Tuesday next week (today's Wednesday January 18th)
+     - Complete "About me" section (image needed on the second card) (done as of Thrusday January 19th)
+     - Complete "My Projects" (use card group to create 3 cards and go from there to choose 3 projects)
+     - Create a "Contact" section with links to Github, Linkedin, and Gmail
+     - Finally, try to polish it a bit and upload it to the web via Google Firebase-->
+</template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+
+.navbar-nav {
+  margin-left: auto;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.navbar-brand {
+  font-family: 'Inconsolata', monospace;
+  color: #4FB477
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link {
+  color: #4FB477
+}
+
+.titlecover {
+  position: sticky;
+  width: 100%;
+  background-color: rgb(50, 50, 65);
+
+
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.banner {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width: 100%;
+  background: rgb(45, 68, 88);
+  background-size: contain;
+
+}
+
+.beginningtext {
+  margin-top: 30;
+  text-transform: uppercase;
+  font-family: 'Inconsolata';
+  text-align: center;
+  color: white;
+  font-size: 95px;
+}
+
+.subtext {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  color: rgb(45, 124, 58)
+}
+
+
+.quote {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+
+
+}
+
+.mainquote {
+  color: rgb(14, 13, 13);
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: "Cousine", monospace;
+}
+
+.authorquote {
+  color: rgb(14, 12, 12);
+  font-family: "Cousine", monospace;
+  padding-top: 10px;
+}
+
+.bannerquote {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 290px;
+  background: rgb(0, 128, 104);
+  z-index: -1;
+
+}
+
+.aboutbackground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1100px;
+  background: rgb(45, 68, 88);
+  background-size: contain;
+  z-index: -1;
+}
+
+.fonts {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+
+.titlefont {
+  font-family: "Exo", sans-serif;
+}
+
+.projectsbackground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 700px;
+  background: rgb(124, 152, 133);
+  z-index: -1;
+}
+
+.projectfont {
+  font-family: "Exo", sans-serif;
+
+
+}
+</style>
