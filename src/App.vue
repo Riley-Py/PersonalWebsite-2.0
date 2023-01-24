@@ -92,7 +92,7 @@
               Not supported
             </video>
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/Security-Alarm-System">Security Alarm System</a></h5>
+              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/Security-Alarm-System" target="_blank">Security Alarm System</a></h5>
               <p class="card-text paragraphfont">This is a project made with an Arduino microcontroller, along with:</p>
               <ul class="card-text paragraphfont">
                 <li> LEDs</li>
@@ -113,7 +113,7 @@
             <img src="./assets/GC.png" class="card-img-top" alt="Not supported"
               style="width: 295px; height:auto; margin-left: auto; margin-right: auto; object-fit:inherit">
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/GaiaVisionMVP">Apple Co-Op </a></h5>
+              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/GaiaVisionMVP" target="_blank">Apple Co-Op </a></h5>
               <p class="card-text paragraphfont"> In the summer of 2022, I did a co-op that was a collaboration between Apple Canada
                 and Our Wave Hub. Some of the opportunties presented were: </p>
               <ul class="card-text paragraphfont">
@@ -133,7 +133,7 @@
             <img src="./assets/website.png" class="card-img-top" alt="Not supported"
               style="width: 435px; height:auto; margin-left: auto; margin-right: auto; object-fit: inherit">
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/PersonalWebsite-2.0">This Website</a></h5>
+              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/PersonalWebsite-2.0" target="_blank">This Website</a></h5>
               <p class="card-text paragraphfont">With this website that I created, I learned numerous ideas and concepts given a short
                 period of time. Some of those sklls were: </p>
               <ul class="paragraphfont">
