@@ -134,7 +134,7 @@
               style="width: 435px; height:auto; margin-left: auto; margin-right: auto; object-fit: inherit">
             <div class="card-body">
               <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/PersonalWebsite-2.0">This Website</a></h5>
-              <p class="card-text paragraphfont">With this website that I created, I learn numerous ideas and concepts given a short
+              <p class="card-text paragraphfont">With this website that I created, I learned numerous ideas and concepts given a short
                 period of time. Some of those sklls were: </p>
               <ul class="paragraphfont">
                 <li> Learning basic design principles</li>
