@@ -55,9 +55,9 @@
       <!--As well, use "col-12 col-md-6" to format the cards correctly-->
       <div class="col">
         <div class="card mx-auto h-100" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
-          <img src="./assets/Programming.png" class="card-img-top" alt="...">
+          <img src="./assets/chromebook.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text fonts"> Programming projects will be a <u>LARGE</u> focus</p>
+            <p class="card-text fonts"> I got a Chromebook running Linux as a fun hardware/software project! <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/"> Blooglet </a> is the codename for the Chromebook. For more information about how to do this: <a href="https://mrchromebox.tech/"> Chromebook</a></p>
           </div>
         </div>
       </div>
@@ -92,19 +92,19 @@
               Not supported
             </video>
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/Security-Alarm-System" target="_blank">Security Alarm System</a></h5>
-              <p class="card-text paragraphfont">This is a project made with an Arduino microcontroller, along with:</p>
-              <ul class="card-text paragraphfont">
+              <h5 class="card-title">Security Alarm System</h5>
+              <p class="card-text">This is a project made with an Arduino microcontroller, along with:</p>
+              <ul class="card-text">
                 <li> LEDs</li>
                 <li> LCD screen</li>
                 <li> IR remote</li>
                 <li> Ultrasonic sensor</li>
               </ul>
             </div>
-            <p class="card-text paragraphfont"> There is also a PIN system to enter to disarm the alarm and when the alarm is
+            <p class="card-text"> There is also a PIN system to enter to disarm the alarm and when the alarm is
               triggered, a sound is played.</p>
             <div class="card-footer">
-              <small class="text-muted paragraphfont">Tech used: Arduino, C++, sensors</small>
+              <small class="text-muted">Tech used: Arduino, C++, sensors</small>
             </div>
           </div>
         </div>
@@ -113,10 +113,10 @@
             <img src="./assets/GC.png" class="card-img-top" alt="Not supported"
               style="width: 295px; height:auto; margin-left: auto; margin-right: auto; object-fit:inherit">
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/GaiaVisionMVP" target="_blank">Apple Co-Op </a></h5>
-              <p class="card-text paragraphfont"> In the summer of 2022, I did a co-op that was a collaboration between Apple Canada
+              <h5 class="card-title">Apple Co-Op </h5>
+              <p class="card-text"> In the summer of 2022, I did a co-op that was a collaboration between Apple Canada
                 and Our Wave Hub. Some of the opportunties presented were: </p>
-              <ul class="card-text paragraphfont">
+              <ul class="card-text">
                 <li>Learning basic layout design</li>
                 <li> Business concepts (how to make a professional keynote)</li>
                 <li> Using some tools that big tech companies use (Notion, Miro)</li>
@@ -124,7 +124,7 @@
               </ul>
             </div>
             <div class="card-footer">
-              <small class="text-muted paragraphfont">Tech used: Swift, Xcode, Miro, Notion</small>
+              <small class="text-muted">Tech used: Swift, Xcode, Miro, Notion</small>
             </div>
           </div>
         </div>
@@ -133,10 +133,10 @@
             <img src="./assets/website.png" class="card-img-top" alt="Not supported"
               style="width: 435px; height:auto; margin-left: auto; margin-right: auto; object-fit: inherit">
             <div class="card-body">
-              <h5 class="card-title titlefont"><a href="https://github.com/Riley-Py/PersonalWebsite-2.0" target="_blank">This Website</a></h5>
-              <p class="card-text paragraphfont">With this website that I created, I learned numerous ideas and concepts given a short
+              <h5 class="card-title">This Website</h5>
+              <p class="card-text">With this website that I created, I learn numerous ideas and concepts given a short
                 period of time. Some of those sklls were: </p>
-              <ul class="paragraphfont">
+              <ul>
                 <li> Learning basic design principles</li>
                 <li> Learning HTML</li>
                 <li> Learning CSS</li>
@@ -144,7 +144,7 @@
               </ul>
             </div>
             <div class="card-footer">
-              <small class="text-muted paragraphfont">Tech used: CSS, HTML, VueJS, Bootstrap, Firebase</small>
+              <small class="text-muted">Tech used: CSS, HTML, VueJS, Bootstrap, Firebase</small>
             </div>
           </div>
         </div>
@@ -206,7 +206,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 .navbar-nav {
   margin-left: auto;
@@ -305,7 +304,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 1100px;
+  height: 1200px;
   background: rgb(45, 68, 88);
   z-index: -1;
 }
@@ -359,7 +358,5 @@
   font-size: 70px;
 
 }
-.paragraphfont {
-  font-family: "Share Tech Mono", monospace
-}
 </style>
+
