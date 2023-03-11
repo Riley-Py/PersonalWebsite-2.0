@@ -57,7 +57,7 @@
         <div class="card mx-auto h-100" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
           <img src="./assets/chromebook.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text fonts"> I got a Chromebook running Linux as a fun hardware/software project! <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/"> Blooglet </a> is the codename for the Chromebook. For more information about how to do this: <a href="https://mrchromebox.tech/"> Chromebook</a></p>
+            <p class="card-text fonts"> I got a Chromebook running Linux as a fun hardware/software project! <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/" target="_blank">Blooglet</a> is the codename for the Chromebook. For more information about how to do this: <a href="https://mrchromebox.tech/" target="_blank"> Chromebook</a></p>
           </div>
         </div>
       </div>
