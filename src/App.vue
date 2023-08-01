@@ -279,11 +279,12 @@
                 <li> Learning about layout design and color matching </li>
                 <li> Learning about how to make a website mobile friendly</li>
                 <li> Learning about <a href = https://vitejs.dev/ target="_blank">Vite</a> and how it can accelerate web development with hot-swap (save the newly added code and the recent changes show up without a refresh to the browser)</li>
+                <li> Learning about <a href = https://firebase.google.com/ target = "_blank">Firebase</a> and how it can be used to host websites and to also automate changes to the website</li>
               </ul>
               <p class = "fonts"> This website has been a great on-going project and everytime I revist it, I always learn how to do something <strong>that</strong> much better.</p> 
             </div>
             <div class="card-footer">
-              <small class="text-muted"> Tech used: HTML, CSS, Vue, Bootstrap, Coolours, Vite, NPM, NodeJS</small>
+              <small class="text-muted"> Tech used: HTML, CSS, Vue, Bootstrap, Coolours, Vite, NPM, NodeJS, Firebase</small>
             </div>
           </div>
         </div>
