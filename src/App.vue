@@ -193,14 +193,14 @@
             </div>
             <div class="card-body">
               <h5 class="card-title fonts"> <u>Linux</u></h5>
-              <p class="card-text fonts"> When COVID hit, I did an endeavour on Linux and have done many distributions,
+              <p class="card-text fonts"> When COVID hit, I embarked on an adventure with Linux and have done many distributions,
                 such as: </p>
               <ul class="fonts">
                 <li> <a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
                 <li> <a href="https://pop.system76.com/" target="_blank">Pop OS</a> </li>
                 <li> <a href="https://archlinux.org/" target="_blank"> Arch Linux </a>, which is where I am today</li>
               </ul>
-              <p class="card-text fonts"> I've also contribute to <a
+              <p class="card-text fonts"> I've also contributed to <a
                   href="https://appdb.winehq.org/objectManager.php?sClass=version&iId=40034&iTestingId=111387"
                   target="_blank">WineHQ</a> to get a game running</p>
             </div>
