@@ -17,7 +17,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="#featured">Featured</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Interests</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">My Projects</a>
@@ -31,12 +34,12 @@
     </nav>
   </div>
   <!--Main title-->
-  <div class="container-fluid">
+  <div class="container">
     <div class="banner"> </div>
     <h1 class="beginningtext"> riley cant</h1>
     <h2 class="subtext"> creator, tinkerer, innovator</h2>
   </div>
-  <div class="container-fluid">
+  <div class="container">
     <div class="bannerquote"> </div>
     <figure class="quote">
       <blockquote class="blockquote mainquote">
@@ -46,15 +49,256 @@
         <cite> Grady Booch</cite>
       </figcaption>
     </figure>
-
   </div>
-  <!--About section (note: move cards with margins and make row m-0 and change out the cards/color (use rows and columns!!))-->
-  <div class="container-fluid ">
+  <!-- Note: Bootstrap 5 starts with mobile (as in mobile takes precendence) and the way to calculate columns is by using 12/(a number) = number of cards per row-->
+  <!-- Another note: don't encapsulate the background with everything else as it takes precendence from the container class-->
+  <!--Features section-->
+  <div class="container-mb overflow-hidden">
     <div class="aboutbackground"> </div>
-    <div class="row row-cols-1 row-cols-md-2 align-items-center">
-      <!--As well, use "col-12 col-md-6" to format the cards correctly-->
+    <div class="features" id="featured">
+      <u> Featured </u>
+    </div>
+    <div class="row gy-2">
+      <!--Chromebook hack-->
+      <div class="col-12 col-md-6 ">
+        <div class="card h-100">
+          <video src="./assets/promotion.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title titlefont"> Chromebook Hack</h5>
+            <p class="card-text fonts"> I got a Chromebook to run Linux! Some things to note:</p>
+            <ul class="fonts">
+              <li> <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/" target="_blank">Blooglet</a>
+                is the codename for the laptop</li>
+              <li> Had to flash the BIOS using this custom <a href="https://mrchromebox.tech/" target="_blank">BIOS,</a>
+                where you have to get around secure boot and then enter into developer mode </li>
+            </ul>
+            <div class="card-footer">
+              <small class="text-muted"> Music from <a
+                  href="https://www.youtube.com/watch?v=mtdQ5roMuEA&ab_channel=PhilipChiang" target="_blank"> System Shock
+                  2</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Android ROM-->
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <video src="./assets/androidhacker.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title titlefont"> Android ROMing</h5>
+            <p class="card-text fonts"> With my almost 10 year old Nexus 5, I put on a custom version of Android 11 on it, even though it was originally Android 6!>
+            </p>
+            <ul class="fonts">
+              <li> <a href="https://wiki.lineageos.org/devices/hammerhead/" target="_blank">Hammerhead</a> is the codename
+                for Nexus</li>
+              <li> Used a custom version of <a href="https://lineageos.org/" target="_blank">Lineage OS</a> by using <a
+                  href="https://twrp.me/about/">custom recovery tools</a></li>
+            </ul>
+            <div class="card-footer">
+              <small class="text-muted"> Music from <a
+                  href="https://www.youtube.com/watch?v=OVh0bMNSFss&ab_channel=g3ox_em"
+                  target="_blank">g3ox_em</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About me-->
+    <div class="row align-items center">
+      <div class="col-12">
+        <div class="card mx-auto h-100" style="margin-top: 20px">
+          <div class="card-body">
+            <h5 class="card-title titlefont"> About Me</h5>
+            <p class="card-text fonts"> Hello there! I absolutely <strong> <u> love</u></strong> technology and everything
+              about it! Continue down below to learn more about me!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Interests section-->
+  <div class="container-mb overflow-hidden">
+      <div style = "background-color: rgb(124, 152, 133); height: auto; width: auto; margin-top: 40px;">
+      <div class="interests" id = "interests">
+        Interests
+      </div>
+     
+      <div class="row gy-2">
+        <!--Origami section-->
+        <div class="col-sm col-md-4">
+          <div class="card h-100" style="margin-top: 10px;">
+            <div id="origami" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/origami1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/origami2.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#origami" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#origami" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fonts"> Origami</h5>
+              <p class="card-text fonts"> Since I was about 10, I've loved to do origami! I've made creations such as:
+              </p>
+              <ul class="fonts">
+                <li> Cats</li>
+                <li> Dogs </li>
+                <li> Dinosaurs</li>
+              </ul>
+              <p class="card-text fonts"> This has helped me with my fine motor skills and my creativity skills.</p>
+            </div>
+
+          </div>
+        </div>
+        <!--Linux Section-->
+        <div class="col-sm col-md-4">
+          <div class="card  h-100" style="margin-top: 10px;">
+            <div id="linux" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#linux" data-bs-slide-to="0" class="active" aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#linux" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#linux" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/home.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/neofetch.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/winehq.png" class="d-block w-100">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#linux" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#linux" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fonts"> Linux</h5>
+              <p class="card-text fonts"> When COVID hitted, I did an endeavour on Linux and have done many distributions,
+                such as: </p>
+              <ul class="fonts">
+                <li> <a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
+                <li> <a href="https://pop.system76.com/" target="_blank">Pop OS</a> </li>
+                <li> <a href="https://archlinux.org/" target="_blank"> Arch Linux </a>, which is where I am today</li>
+              </ul>
+              <p class="card-text fonts"> I've also contribute to <a
+                  href="https://appdb.winehq.org/objectManager.php?sClass=version&iId=40034&iTestingId=111387"
+                  target="_blank">WineHQ</a> to get a game running</p>
+            </div>
+          </div>
+        </div>
+        <!--Reading section-->
+        <div class=" col-sm col-md-4">
+          <div class="card h-100" style="margin-top: 10px">
+            <img src="./assets/reading.jpg">
+            <div class="card-body">
+              <h5 class="card-title fonts"> Reading</h5>
+              <p class="card-text fonts"> I've always loved reading many books due to the intricate stories that they
+                tell. They can be very thought provoking and interestng to see a different set of eyes from different
+                people.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Projects section-->
+  <div class = "container-mb overflow-hidden">
+    <div style = "background-color: #657ED4; height: auto; width: auto; padding-top: 10px; margin-top: 10px" >
+      <div class = "features" id="projects">
+        <u>My Projects</u>
+      </div>
+      <div class = "row gy-2">
+        <!--Security alarm system-->
+        <div class = "col-sm col-md-4">
+          <div class = "card h-100" style="margin-top: 10px">
+            <video src = "./assets/Video.mp4" controls></video>
+            <div class = "card-body">
+              <h5 class = "card-title fonts"> <u>Security Alarm System</u></h5>
+              <p class = "card-text fonts"> This is a project made with an arduino microcontroller, along with: </p>
+              <ul class = "fonts">
+                <li> LED lights</li>
+                <li> LCD screen</li>
+                <li> IR Remote</li>
+                <li> Ultrasonic Sensor</li>
+                <li> Shift register to reduce amount of wires used </li>
+              </ul>
+              <p class = "card-text fonts"> Here's the <a href="https://github.com/Riley-Py/Security-Alarm-System " target="_blank">project here</a></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"> Tech used: C++, Arduino microcontroller, sensors</small>
+            </div>
+          </div>
+        </div>
+        <!--Gaiavision-->
+        <div class = "col-sm col-md-4">
+            <div class = "card h-100" style = "margin-top:10px">
+              <img src = "./assets/GC.png" width="300" height="300" style="vertical-align:middle; margin-top: 50px; margin-left: 160px">
+              <div class = "card-body">
+                <h5 class = "card-title fonts"><u> Apple co-op </u></h5>
+                <p class = "card-text fonts"> In the summer of 2022, I had the chance to do a co-op with Apple and Our Wave Hub. We were tasked at making a project to address an issue.  I chose to address climate change adovacy with my application, "Gaiavision" with using the programming language Swift and Xcode.  I learned the following:</p>
+                <ul class = "fonts">
+                  <li> Business concepts (making professional key note)</li>
+                  <li>Using some industry tools (Miro, Notion) </li>
+                  <li> Learning from speakers on pitching and getting the ideas out there</li>
+                </ul>
+                <p class ="card-text fonts"> Here's my <a href = https://www.linkedin.com/in/riley-o-c314/ target="_blank" >certification</a> and here's more about <a href = "https://github.com/Riley-Py/GaiaVisionMVP" target="_blank">Gaiavision</a></p>
+              </div>
+              <div class="card-footer">
+              <small class="text-muted"> Tech used: Xcode, MacOS, Keynote, Swift</small>
+            </div>
+            </div>
+          </div>
+        <div class = "col-sm col-md-4">
+          <div class = "card h-100" style = "margin-top:10px">
+            <img src = "./assets/website.png">
+            <div class = "card-body">
+              <h5 class = "card-title fonts"><u>Personal Website </u></h5>
+              <p class = "fonts"> With this personal website, there were a lot of <strong>victories</strong> and <strong> struggles</strong>, but I learned to persevere and here we are!  What I learned from this website over the course of two revisions is:</p>
+              <ul class = "fonts">
+                <li> Learning about <a href = https://getbootstrap.com/ target="_blank">Bootstrap</a> containers, columns, and rows</li>
+                <li> Learning about how <a href = https://vuejs.org/ target = "_blank">Vue</a> can be used to build a website within one file if wanted and how to expand later on</li>
+                <li> Learning about layout design and color matching </li>
+                <li> Learning about how to make a website mobile friendly</li>
+                <li> Learning about <a href = https://vitejs.dev/ target="_blank">Vite</a> and how it can accelerate web development with hot-swap (save the newly added code and the recent changes show up without a refresh to the browser)</li>
+              </ul>
+              <p class = "fonts"> This website has been a great on-going project and everytime I revist it, I always learn how to do something <strong>that</strong> much better.</p> 
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"> Tech used: HTML, CSS, Vue, Bootstrap, Coolours, Vite, NPM, NodeJS</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+    
+    
+  
+  
+
+  <!-- <div class="row row-cols-1 row-cols-md-2 align-items-center">
+      As well, use "col-12 col-md-6" to format the cards correctly
       <div class="col">
-        <div class="card mx-auto h-100" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
+        <div class="card mx-auto" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
           <img src="./assets/chromebook.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text fonts"> I got a Chromebook running Linux as a fun hardware/software project! <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/" target="_blank">Blooglet</a> is the codename for the Chromebook. For more information about how to do this: <a href="https://mrchromebox.tech/" target="_blank"> Chromebook</a></p>
@@ -78,9 +322,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--Projects that I've done-->
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="projectsbackground">
       <h1 class="text-center projectfont" id="projects" style="margin-top: 25px"> <strong> <u>My Projects </u> </strong>
       </h1>
@@ -192,7 +436,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <!--DO NOT REMOVE: stuff neeeded before Tuesday next week (today's Wednesday January 18th)
@@ -274,6 +518,9 @@
 
 
 }
+.hobbyprojects {
+  background-color: #657ED4
+}
 
 .mainquote {
   color: rgb(14, 13, 13);
@@ -304,9 +551,11 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 1200px;
+  height: 1600px;
   background: rgb(45, 68, 88);
   z-index: -1;
+  padding-bottom: 10px;
+
 }
 
 .fonts {
@@ -314,41 +563,59 @@
   font-size: 20px;
 }
 
-.titlefont {
+.features {
+  text-align: center;
+  padding-top: 30px;
   font-family: "Exo", sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 30px;
+
 }
 
-.projectsbackground {
+.interests {
+  text-align: center;
+  z-index: 1;
+  font-family: "Exo", sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  padding-top: 10px;
+  margin-top: 10px;
+
+}
+
+.titlefont {
+  font-family: "Exo", sans-serif;
+  text-decoration: underline;
+}
+
+.interestsBackground {
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   background: rgb(124, 152, 133);
   z-index: -1;
+  margin-top: 25px;
 
 }
 
-.projectfont {
-  font-family: "Exo", sans-serif;
 
 
-}
-
-.video1 {
-  display: block;
-  margin: auto;
-}
 
 .contactbackground {
   position: absolute;
   left: 0;
   right: 0;
   width: 100%;
-  height: 150px;
+  height: 650px;
   background: rgb(50, 50, 65);
-  z-index: -1;
+  z-index: -2;
 }
+
 
 .endingtext {
   font-family: "Cousine", monospace;
