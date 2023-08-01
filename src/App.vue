@@ -62,7 +62,7 @@
       <!--Chromebook hack-->
       <div class="col-12 col-md-6 ">
         <div class="card h-100">
-          <video src="./assets/promotion.mp4" controls></video>
+          <video src="./assets/chromebookPromotion.mp4" controls></video>
           <div class="card-body">
             <h5 class="card-title titlefont"> Chromebook Hack</h5>
             <p class="card-text fonts"> I got a Chromebook to run Linux! Some things to note:</p>
