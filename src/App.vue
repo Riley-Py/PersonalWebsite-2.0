@@ -90,7 +90,7 @@
           <video src="./assets/androidhacker.mp4" controls></video>
           <div class="card-body">
             <h5 class="card-title titlefont"> Android ROMing</h5>
-            <p class="card-text fonts"> With my almost 10 year old Nexus 5, I put on a custom version of Android 11 on it, even though it was originally Android 6!>
+            <p class="card-text fonts"> With my almost 10 year old Nexus 5, I put on a custom version of Android 11 on it, even though it was originally Android 6!
             </p>
             <ul class="fonts">
               <li> <a href="https://wiki.lineageos.org/devices/hammerhead/" target="_blank">Hammerhead</a> is the codename
