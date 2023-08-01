@@ -149,7 +149,7 @@
               </button>
             </div>
             <div class="card-body">
-              <h5 class="card-title fonts"> Origami</h5>
+              <h5 class="card-title fonts"> <u>Origami</u></h5>
               <p class="card-text fonts"> Since I was about 10, I've loved to do origami! I've made creations such as:
               </p>
               <ul class="fonts">
@@ -192,7 +192,7 @@
               </button>
             </div>
             <div class="card-body">
-              <h5 class="card-title fonts"> Linux</h5>
+              <h5 class="card-title fonts"> <u>Linux</u></h5>
               <p class="card-text fonts"> When COVID hit, I did an endeavour on Linux and have done many distributions,
                 such as: </p>
               <ul class="fonts">
@@ -211,7 +211,7 @@
           <div class="card h-100" style="margin-top: 10px">
             <img src="./assets/reading.jpg">
             <div class="card-body">
-              <h5 class="card-title fonts"> Reading</h5>
+              <h5 class="card-title fonts"> <u>Reading</u></h5>
               <p class="card-text fonts"> I've always loved reading many books due to the intricate stories that they
                 tell. They can be very thought provoking and interesting to see different viewpoints.</p>
             </div>
