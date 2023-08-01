@@ -9,3 +9,7 @@ I created a personal website so that:
 3. It's fun to configure it yourself and make it original
 
 NOTE: Currently doing a rework behind the scenes.  Expect the new website to come out sometime today!
+
+## Log: August 1st, 2023
+
+Made a huge update to the website, by doing some refactoring, but also updating a bunch of stuff to get the website up to speed. 
