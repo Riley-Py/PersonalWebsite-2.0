@@ -7,3 +7,5 @@ I created a personal website so that:
 1. Can show off my projects in an easier format
 2. Learning web development 
 3. It's fun to configure it yourself and make it original
+
+NOTE: Currently doing a rework behind the scenes.  Expect the new website to come out sometime today!
