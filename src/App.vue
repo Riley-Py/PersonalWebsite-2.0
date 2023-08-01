@@ -96,7 +96,7 @@
               <li> <a href="https://wiki.lineageos.org/devices/hammerhead/" target="_blank">Hammerhead</a> is the codename
                 for Nexus</li>
               <li> Used a custom version of <a href="https://lineageos.org/" target="_blank">Lineage OS</a> by using <a
-                  href="https://twrp.me/about/">custom recovery tools</a></li>
+                  href="https://twrp.me/about/" target="_blank">custom recovery tools</a></li>
             </ul>
             <div class="card-footer">
               <small class="text-muted"> Music from <a
