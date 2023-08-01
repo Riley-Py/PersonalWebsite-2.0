@@ -3,6 +3,9 @@
 
 <template>
   <!--Naviagation bar for website-->
+  <!-- Author: Riley C. 
+       Date of update: August 1st, 2023
+       Website: Personal website for myself-->
   <div class="titlecover">
     <nav class="navbar navbar-expand-lg bg-body-tertiary font-inconsolata">
       <div class="container-fluid">
@@ -121,8 +124,7 @@
       <div style = "background-color: rgb(124, 152, 133); height: auto; width: auto; margin-top: 40px;">
       <div class="interests" id = "interests">
         Interests
-      </div>
-     
+      </div> 
       <div class="row gy-2">
         <!--Origami section-->
         <div class="col-sm col-md-4">
@@ -156,7 +158,6 @@
               </ul>
               <p class="card-text fonts"> This has helped me with my fine motor skills and my creativity skills.</p>
             </div>
-
           </div>
         </div>
         <!--Linux Section-->
@@ -191,7 +192,7 @@
             </div>
             <div class="card-body">
               <h5 class="card-title fonts"> Linux</h5>
-              <p class="card-text fonts"> When COVID hitted, I did an endeavour on Linux and have done many distributions,
+              <p class="card-text fonts"> When COVID hit, I did an endeavour on Linux and have done many distributions,
                 such as: </p>
               <ul class="fonts">
                 <li> <a href="https://ubuntu.com/" target="_blank">Ubuntu</a></li>
@@ -211,8 +212,7 @@
             <div class="card-body">
               <h5 class="card-title fonts"> Reading</h5>
               <p class="card-text fonts"> I've always loved reading many books due to the intricate stories that they
-                tell. They can be very thought provoking and interestng to see a different set of eyes from different
-                people.</p>
+                tell. They can be very thought provoking and interesting to see different viewpoints.</p>
             </div>
           </div>
         </div>
@@ -287,113 +287,12 @@
           </div>
         </div>
       </div>
-    </div>
-    
+    </div>    
   </div>
     
     
-  
-  
-
-  <!-- <div class="row row-cols-1 row-cols-md-2 align-items-center">
-      As well, use "col-12 col-md-6" to format the cards correctly
-      <div class="col">
-        <div class="card mx-auto" style="width: 28rem; margin-top: 95px; margin-bottom: 30px">
-          <img src="./assets/chromebook.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text fonts"> I got a Chromebook running Linux as a fun hardware/software project! <a href="https://chromebookdb.com/chromebook/hp-14a-na0031wm-9fy38uaaba/" target="_blank">Blooglet</a> is the codename for the Chromebook. For more information about how to do this: <a href="https://mrchromebox.tech/" target="_blank"> Chromebook</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mx-auto p-4 h-100"
-          style="width: 30rem; margin-top: 95px; margin-right: 10px; margin-bottom: 30px;">
-          <div class="card-body">
-            <h5 class="card-title titlefont" id="about"> <strong> <u>About Me </u></strong></h5>
-            <p class="card-text fonts"> Hello, my name is Riley and here is my personal website to display some of my
-              <u>projects</u> and <u>accomplishments</u>. Here are some things that you should know about me
-            </p>
-            <ul class="fonts">
-              <li> Passionate</li>
-              <li> Can work under tight deadlines</li>
-              <li> Love technology</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!--Projects that I've done-->
-  <!-- <div class="container-fluid">
-    <div class="projectsbackground">
-      <h1 class="text-center projectfont" id="projects" style="margin-top: 25px"> <strong> <u>My Projects </u> </strong>
-      </h1>
-      <div class="row row-cols-auto row-cols-md-3 align-items-center m-0">
-        <div class="col">
-          <div class="card h-100" style="margin-top: 40px; margin-bottom: 20px">
-            <video class="video1" width="435" height="auto" controls loop autoplay muted>
-              <source src="./assets/Video.mp4" type="video/mp4">
-              Not supported
-            </video>
-            <div class="card-body">
-              <h5 class="card-title">Security Alarm System</h5>
-              <p class="card-text">This is a project made with an Arduino microcontroller, along with:</p>
-              <ul class="card-text">
-                <li> LEDs</li>
-                <li> LCD screen</li>
-                <li> IR remote</li>
-                <li> Ultrasonic sensor</li>
-              </ul>
-            </div>
-            <p class="card-text"> There is also a PIN system to enter to disarm the alarm and when the alarm is
-              triggered, a sound is played.</p>
-            <div class="card-footer">
-              <small class="text-muted">Tech used: Arduino, C++, sensors</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100" style="margin-top: 40px; margin-bottom: 20px">
-            <img src="./assets/GC.png" class="card-img-top" alt="Not supported"
-              style="width: 295px; height:auto; margin-left: auto; margin-right: auto; object-fit:inherit">
-            <div class="card-body">
-              <h5 class="card-title">Apple Co-Op </h5>
-              <p class="card-text"> In the summer of 2022, I did a co-op that was a collaboration between Apple Canada
-                and Our Wave Hub. Some of the opportunties presented were: </p>
-              <ul class="card-text">
-                <li>Learning basic layout design</li>
-                <li> Business concepts (how to make a professional keynote)</li>
-                <li> Using some tools that big tech companies use (Notion, Miro)</li>
-                <li> Learning from industry professionals on pitching</li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Tech used: Swift, Xcode, Miro, Notion</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100" style="margin-top: 40px; margin-bottom: 20px">
-            <img src="./assets/website.png" class="card-img-top" alt="Not supported"
-              style="width: 435px; height:auto; margin-left: auto; margin-right: auto; object-fit: inherit">
-            <div class="card-body">
-              <h5 class="card-title">This Website</h5>
-              <p class="card-text">With this website that I created, I learn numerous ideas and concepts given a short
-                period of time. Some of those sklls were: </p>
-              <ul>
-                <li> Learning basic design principles</li>
-                <li> Learning HTML</li>
-                <li> Learning CSS</li>
-                <li> Learning how to use a framework so that expandability of the website is easier later on</li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Tech used: CSS, HTML, VueJS, Bootstrap, Firebase</small>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
+      <!-- This will be dealt with at a later time (maybe August 1st or the next day)-->
+      <!-- <div class="container-fluid">
         <div class="contactbackground">
           <h1 class="endingtext" id="contact"> <u>contact</u></h1>
           <div class="text-center">
@@ -437,13 +336,6 @@
       </div>
     </div>
   </div> -->
-
-
-  <!--DO NOT REMOVE: stuff neeeded before Tuesday next week (today's Wednesday January 18th)
-     - Complete "About me" section (image needed on the second card) (done as of Thrusday January 19th)
-     - Complete "My Projects" (use card group to create 3 cards and go from there to choose 3 projects)
-     - Create a "Contact" section with links to Github, Linkedin, and Gmail
-     - Finally, try to polish it a bit and upload it to the web via Google Firebase-->
 </template>
 
 <style scoped>
@@ -518,10 +410,6 @@
 
 
 }
-.hobbyprojects {
-  background-color: #657ED4
-}
-
 .mainquote {
   color: rgb(14, 13, 13);
   font-size: 30px;
@@ -590,21 +478,6 @@
   font-family: "Exo", sans-serif;
   text-decoration: underline;
 }
-
-.interestsBackground {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(124, 152, 133);
-  z-index: -1;
-  margin-top: 25px;
-
-}
-
-
-
 
 .contactbackground {
   position: absolute;
