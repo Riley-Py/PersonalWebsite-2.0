@@ -7,8 +7,8 @@
        Date of update: August 1st, 2023
        Date of origin: March 2023
        Website: Personal website for myself-->
-  <div class="titlecover">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary font-inconsolata">
+  <div class="titlecover" style = "z-index: 9999">
+    <nav class="navbar navbar-expand-lg font-inconsolata fixed-top" style = "background-color: rgb(50, 50, 65)">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img class="image" src="/pi.svg" alt="Logo" width="30" height="24">
@@ -363,13 +363,7 @@
   color: #4FB477
 }
 
-.titlecover {
-  position: sticky;
-  width: 100%;
-  background-color: rgb(50, 50, 65);
 
-
-}
 
 .nav-link:hover {
   color: white;
@@ -388,7 +382,7 @@
 }
 
 .beginningtext {
-  margin-top: 30;
+  margin-top: 50px;
   text-transform: uppercase;
   font-family: 'Inconsolata';
   text-align: center;
