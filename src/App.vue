@@ -54,7 +54,7 @@
     </figure>
   </div>
   <!-- Note: Bootstrap 5 starts with mobile (as in mobile takes precendence) and the way to calculate columns is by using 12/(a number) = number of cards per row-->
-  <!-- Another note: don't encapsulate the background with everything else as it takes precendence from the container class-->
+  <!-- Note: with the background, bake it in to the container for future reference when making new containers-->
   <!--Features section-->
   <div class="container-mb overflow-hidden">
     <div class="aboutbackground"> </div>
@@ -497,6 +497,10 @@
   text-transform: uppercase;
   font-size: 70px;
 
+}
+.carousel-control-next,
+.carousel-control-prev  {
+    background-color: black;
 }
 </style>
 
