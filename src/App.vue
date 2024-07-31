@@ -29,9 +29,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#projects">My Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -76,7 +73,7 @@
               <li> Had to flash the BIOS using this custom <a href="https://mrchromebox.tech/" target="_blank">BIOS,</a>
                 where you have to get around secure boot and then enter into developer mode </li>
             </ul>
-            <div class="card-footer">
+            <div class="card-footer" style="padding-top: 10px">
               <small class="text-muted"> Music from <a
                   href="https://www.youtube.com/watch?v=mtdQ5roMuEA&ab_channel=PhilipChiang" target="_blank"> System Shock
                   2</a></small>
@@ -129,7 +126,7 @@
       <div class="row gy-2">
         <!--Origami section-->
         <div class="col-sm col-md-4">
-          <div class="card h-100" style="margin-top: 10px;">
+          <div class="card h-100" style="margin-bottom: 15px;">
             <div id="origami" class="carousel slide">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -163,7 +160,7 @@
         </div>
         <!--Linux Section-->
         <div class="col-sm col-md-4">
-          <div class="card  h-100" style="margin-top: 10px;">
+          <div class="card  h-100" style="margin-bottom: 15px;">
             <div id="linux" class="carousel slide">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#linux" data-bs-slide-to="0" class="active" aria-current="true"
@@ -208,7 +205,7 @@
         </div>
         <!--Reading section-->
         <div class=" col-sm col-md-4">
-          <div class="card h-100" style="margin-top: 10px">
+          <div class="card h-100" style="margin-bottom: 15px;">
             <img src="./assets/reading.jpg">
             <div class="card-body">
               <h5 class="card-title fonts"> <u>Reading</u></h5>
@@ -221,15 +218,15 @@
     </div>
   </div>
   <!--Projects section-->
-  <div class = "container-mb overflow-hidden">
-    <div style = "background-color: #657ED4; height: auto; width: auto; padding-top: 10px; margin-top: 10px" >
+  <div class = "container-mb overflow-hidden" >
+    <div style = "background-color: #657ED4; height: auto; width: auto; padding-top: 0px; margin-top: 0px" >
       <div class = "features" id="projects">
         <u>My Projects</u>
       </div>
       <div class = "row gy-2">
         <!--Security alarm system-->
         <div class = "col-sm col-md-4">
-          <div class = "card h-100" style="margin-top: 10px">
+          <div class = "card h-100" style="margin-bottom: 15px">
             <video src = "./assets/Video.mp4" controls></video>
             <div class = "card-body">
               <h5 class = "card-title fonts"> <u>Security Alarm System</u></h5>
@@ -250,7 +247,7 @@
         </div>
         <!--Gaiavision-->
         <div class = "col-sm col-md-4">
-            <div class = "card h-100" style = "margin-top:10px">
+            <div class = "card h-100" style = "margin-bottom:15px">
               <img src = "./assets/GC.png" width="300" height="300" style="vertical-align:middle; margin-top: 50px; margin-left: 160px">
               <div class = "card-body">
                 <h5 class = "card-title fonts"><u> Apple co-op </u></h5>
@@ -268,7 +265,7 @@
             </div>
           </div>
         <div class = "col-sm col-md-4">
-          <div class = "card h-100" style = "margin-top:10px">
+          <div class = "card h-100" style = "margin-bottom:15px">
             <img src = "./assets/website.png">
             <div class = "card-body">
               <h5 class = "card-title fonts"><u>Personal Website </u></h5>
@@ -453,7 +450,7 @@
   font-family: "Exo", sans-serif;
   color: white;
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 
 }
 
@@ -466,8 +463,8 @@
   text-decoration: underline;
   font-size: 50px;
   padding-top: 10px;
-  margin-top: 10px;
-
+  margin-bottom: 10px;
+ 
 }
 
 .titlefont {
