@@ -13,5 +13,6 @@ I created a personal website so that:
 
 Made a huge update to the website, by doing some refactoring, but also updating a bunch of stuff to get the website up to speed. Check out the new update if you haven't!  
 
-## Update 1 on Website:
-Contacts will be added, but the plan with those is to make it into a form that someone can fill out and then I get a notification on my email that states whtat that email is and what the new message is.  For this, I will have to learn how to the use the Google Firebase database, and then send it to an email address.
+## Update as of July 30th, 2024
+
+I am going to be updating the website with using Tailwind CSS and VueJS.  I will also be using VueJS again, as what is the point of trying out React when I haven't even learned Javascript yet?  I will be using Javascript in this project to do some neat stuff (view counter is one of them).  Otherwise, this website serves as a good portfolio for all of the projects that don't have footage in the Github portfolio or on Linkedin.  Made a small update changing some stuff.
