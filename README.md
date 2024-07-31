@@ -15,4 +15,4 @@ Made a huge update to the website, by doing some refactoring, but also updating 
 
 ## Update as of July 30th, 2024
 
-I am going to be updating the website with using Tailwind CSS and VueJS.  I will also be using VueJS again, as what is the point of trying out React when I haven't even learned Javascript yet?  I will be using Javascript in this project to do some neat stuff (view counter is one of them).  Otherwise, this website serves as a good portfolio for all of the projects that don't have footage in the Github portfolio or on Linkedin.  Made a small update changing some stuff.
+I am going to be making a new website, using Tailwind CSS and VueJS.  I will also be using VueJS again, as what is the point of trying out React when I haven't even learned Javascript yet?  I will be using Javascript in this project to do some neat stuff (view counter is one of them).  Otherwise, this website serves as a good portfolio for all of the projects that don't have footage in the Github portfolio or on Linkedin.  Made a small update changing some stuff.
